@@ -1,0 +1,174 @@
+/*
+* {
+  border: 1px solid white;
+}
+*/
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #262626;
+}
+
+.headerIntro {
+  
+
+  /*  Border  */
+  background-color: #141414;
+  border-left: 1px solid #141414;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*  Positoning  */
+  padding: 20px;
+
+}
+
+img {
+  width: 175px;
+  float: left;
+}
+
+.Introduction {
+  color: white;
+  font-family: Courier, sans-serif, monospace;
+
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  text-align: left;
+  display: inline-block;
+  position: center;
+}
+
+#introMessage {
+  font-size: 36px;
+  
+}
+
+.objective {
+  margin-top: 30px;
+  color: yellow;
+}
+
+#objectiveMessage {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ---------------- Content ----------------- */
+
+.navigation {
+  list-style-type: none;
+  text-align: center;
+}
+
+.navigation li {
+  font-family: Courier, sans-serif, monospace;
+  color: white; 
+  font-size: 16px;
+  padding: 10px;
+  background: yellow;
+  display: inline-block;
+}
+
+#content {
+  align-content: center;
+  display: inline-block;
+}
+
+/* ---------------- Programming XP ----------------- */
+#sideBar {
+  float: left;
+}
+
+#userContact {
+
+  padding-top: 2px;
+  font-family: Courier, sans-serif, monospace;
+  color: white;
+  font-size: 14px;
+
+  padding-left: 20px;
+  /*background-color: #141414;*/
+  height: 150px;
+  width: 200px;
+  border-left: 3px solid yellow;
+  
+  
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact {
+  font-family: Courier, sans-serif, monospace;
+  color: white;
+  font-size: 14px;
+
+  padding-top: 2px;
+  padding-left: 20px;
+  margin-top: 35px;
+  
+  /*background-color: #141414;*/
+  height: 150px;
+  width: 200px;
+  border-left: 3px solid yellow;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table, td {
+  padding-bottom: 10px;
+  width: 10%;
+  text-align: left;
+  font-size: 12px;
+
+}
+
+#progTable tr {
+  
+}
+
+#formTitle {
+  color: yellow;
+}
+
+/* --------------- Skills ---------------- */
+
+#skills {
+  
+  display: inline-block;
+  margin-left: 75px;
+  
+}
+
+#skills h2 {
+
+  font-family: Courier, sans-serif, monospace;
+  color: white;
+  font-size: 20px;
+  position: center;
+  
+}
+
+#skill2 {
+  padding-top: 20px;
+}
+
+#skill3 {
+  padding-top: 20px;
+}
+
+#skills p {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 18px;
+}
+
